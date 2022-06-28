@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(143, 191, 233);
+  }
+  
+  nav h1{
+    align-items: center;
+  }
+  table {
+    margin-top: 5%;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 75%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    span{
+      padding: 1% 2%;
+    }
+    button
+    {
+      border: 1px solid white;
+      margin-top: 2%;
+      width: 10%;
+      padding: 1% 1%;
+      background-color: rgb(113, 113, 238);
+      color: rgb(25, 25, 56);
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 1vw 1vw;
+    }
+    button:hover{
+      color :rgb(247, 238, 238);
+      background-color: rgb(25, 25, 56);
+      transition: 2s;
+    }
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+    #titleSpan{
+      padding-left: 0;
+    }
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      top: 25px;
+      left: 55%;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
